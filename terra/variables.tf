@@ -39,3 +39,8 @@ variable "port_3" {
   description = "SSH"
   default     = 22
 }
+variable "public_ip" {
+  type        = bool
+  description = "associate public ip address"
+  default     = "true"
+}
